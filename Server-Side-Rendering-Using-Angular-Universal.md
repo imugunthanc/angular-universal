@@ -79,16 +79,18 @@ npm run build:ssr && npm run serve:ssr
 
 Once the build is successful, you can view your application running in `http://localhost:4000` (or whatever port is configured for you).
 
-##How to check SSR is working or not?
+## How to check SSR is working or not?
 Assume that SSR is implemented and build happend without any issues and you could see the application running on the browser. But how do we know that the application running is actually SSR or angular default SPA one.
 
 To check this, you should check the `Page Source`. How to see the `Page Source`, right click -> `View Page Source` simple as that.
 
 Now
 
-##Things you need to take care of
-##Angular Universal "GOTCHAS"
+## Things you need to take care of
+## Angular Universal "GOTCHAS"
 
-###Sources
+### Sources
+
 [Angular documentation](https://angular.io/guide/universal)
+
 [alligator.io](https://alligator.io/angular/angular-universal/)
