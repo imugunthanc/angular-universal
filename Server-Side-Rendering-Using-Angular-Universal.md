@@ -1,32 +1,12 @@
-```markdown
-Syntax highlighted code block
+# Server Side Rendering(SSR) with Angular Universal
 
-# Header 1
-
-## Header 2
-
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-#Server Side Rendering(SSR) with Angular Universal
-
-###What is SSR?
+### What is SSR?
 
 <!-- Typical Angular application is a Single-Page Application (SPA) where the rendering happens on the client side(i.e., Browser). The process of rendering the application on the server is referred as Server Side Rendering(SSR). -->
 
 A normal Angular application executes in the browser, rendering pages in the DOM in response to user actions. Angular Universal executes on the server, generating static application pages that later get bootstrapped on the client. This means that the application generally renders more quickly, giving users a chance to view the application layout before it becomes fully interactive.
 
-###Why SSR?
+### Why SSR?
 
 There are three main reasons to create a Universal version of your app.
 
@@ -34,17 +14,17 @@ There are three main reasons to create a Universal version of your app.
 2. Improve performance on mobile and low-powered devices
 3. how the first page quickly with a first-contentful paint (FCP)
 
-###Facilitate web crawlers (SEO)
+### Facilitate web crawlers (SEO)
 
 Google, Bing, Facebook, Twitter, and other social media sites rely on web crawlers to index your application content and make that content searchable on the web. These web crawlers may be unable to navigate and index your highly interactive Angular application as a human user could do.
 
 Angular Universal can generate a static version of your app that is easily searchable, linkable, and navigable without JavaScript. Universal also makes a site preview available since each URL returns a fully rendered page.
 
-###Improve performance on mobile and low-powered devices
+### Improve performance on mobile and low-powered devices
 
 Some devices don't support JavaScript or execute JavaScript so poorly that the user experience is unacceptable. For these cases, you may require a server-rendered, no-JavaScript version of the app. This version, however limited, may be the only practical alternative for people who otherwise couldn't use the app at all.
 
-###Show the first page quickly
+### Show the first page quickly
 
 Displaying the first page quickly can be critical for user engagement. Pages that load faster perform better, even with changes as small as 100ms. Your app may have to launch faster to engage these users before they decide to do something else.
 
@@ -52,7 +32,7 @@ With Angular Universal, you can generate landing pages for the app that look lik
 
 In practice, you'll serve a static version of the landing page to hold the user's attention. At the same time, you'll load the full Angular app behind it. The user perceives near-instant performance from the landing page and gets the full interactive experience after the full app loads.
 
-##Lets get started with SSR Implementation
+## Lets get started with SSR Implementation
 
 **Step 1**
 
